@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #1f2937;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.header ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1f2937;
+    padding: 5rem;
+}
+
+.heroTextCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+/*
+Sebastian Ervi
+Harrison Haines
+Didarul Islam
+Andre Moura
+Wolfgang
+*/
+.heroTextCont h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: -1rem;
+}
+.heroTextCont p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.heroTextCont button {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero img {
+    height: auto;
+    width: 500px;
+    flex-grow: 3;
+    border: 1px solid white;
+}
+
+.upcoming {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.upcoming h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.concertsCont {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.concert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concertText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.concertText h4 {
+    margin-bottom: -0.5rem;
+}
+.concert p {
+    text-align: center;
+    color: gray;
+    width: 200px;
+}
+.concert img {
+    border-radius: 1rem;
+}
+
+.testimonialCont {
+    padding: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: #e5e7eb;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.testimonial em {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: 1f2937;
+}
+.testimonial p {
+    align-self: flex-end;
+}
+
+.callActionCont {
+    display: flex;
+    padding: 5rem;
+
+    align-items: center;
+    border: 1px solid;
+}
+
+.callAction {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    padding: 2rem;
+}
+
+.callActionText {
+    flex-basis: 75%;
+}
+
+.callAction button {
+}
